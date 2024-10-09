@@ -6,7 +6,7 @@ class Server {
 
     constructor (port){
         this.app=express();
-        this.port=port;
+        this.port=8080;
         this.usersEndPoint = "/api/claims/";
 
         // MIDDLEWARES
